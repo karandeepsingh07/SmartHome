@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/textHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BedRoom"
+            android:textSize="25sp"
+            android:layout_marginStart="@dimen/left_margin"
+            android:layout_marginTop="@dimen/left_margin"
+            android:textColor="@android:color/white" />
+        <View
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/textHead"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="end"
+            android:paddingEnd="@dimen/left_margin"
+            android:layout_marginBottom="@dimen/small_icon_left_margin">
+
+            <ImageView
+                android:id="@+id/icon1st"
+                android:layout_width="37dp"
+                android:layout_height="46dp"
+                android:src="@drawable/beeer" />
+
+            <ImageView
+                android:id="@+id/icon2nd"
+                android:layout_width="37dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="@dimen/small_icon_left_margin"
+                android:src="@drawable/beeer" />
+
+            <ImageView
+                android:id="@+id/icon3rd"
+                android:layout_width="37dp"
+                android:layout_height="46dp"
+                android:src="@drawable/beeer"
+                android:layout_marginStart="@dimen/small_icon_left_margin"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

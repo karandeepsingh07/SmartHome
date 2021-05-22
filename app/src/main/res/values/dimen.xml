@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_icon_left_margin">10dp</dimen>
+    <dimen name="left_margin">25dp</dimen>
+    <dimen name="app_bar_height">400dp</dimen>
+</resources>
